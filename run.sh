@@ -1,6 +1,5 @@
 LAB="--env JUPYTER_ENABLE_LAB=yes"
-# TAG=e763dc764d90
-TAG=latest
+TAG=8b7eb58cec8d
 HOSTPORT=8888
 
 docker run --rm -p $HOSTPORT:8888 $LAB \
